@@ -8,7 +8,7 @@ app = FastAPI(title='NO CONTEXT')
 
 @app.get("/")
 def root():
-    return "NO CONTEXT"
+    return {"message": "No Context"}
 
 
 app.include_router(hello_world.router)
