@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 
-from routers import hello_world
+from app.routers import hello_world
 
 app = FastAPI(title='NO CONTEXT')
 
